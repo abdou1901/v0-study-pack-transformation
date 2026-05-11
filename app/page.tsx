@@ -11,7 +11,7 @@ export default function StudyPage() {
 
   useEffect(() => {
     // Load markdown data
-    fetch('/lib/markdownData.json')
+    fetch('/markdownData.json')
       .then((res) => res.json())
       .then((data) => {
         setMarkdown(data.markdown);
