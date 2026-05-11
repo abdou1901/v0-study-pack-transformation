@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { FileText, BookOpen, Flashcard, ChevronRight, Menu, X } from 'lucide-react';
+import { FileText, BookOpen, Lightbulb, ChevronRight, Menu, X } from 'lucide-react';
 import Summary from '@/components/Summary';
 import Quiz from '@/components/Quiz';
 import Flashcards from '@/components/Flashcards';
@@ -58,7 +58,7 @@ export default function Home() {
                 onClick={() => setCurrentView('flashcards')}
                 className="p-6 bg-purple-50 border-2 border-purple-200 rounded-lg hover:border-purple-500 hover:shadow-lg transition"
               >
-                <Flashcard className="mx-auto mb-3 text-purple-600" size={32} />
+                <Lightbulb className="mx-auto mb-3 text-purple-600" size={32} />
                 <h3 className="font-bold text-lg mb-2">البطاقات</h3>
                 <p className="text-gray-600 text-sm">تعلم باستخدام البطاقات التعليمية</p>
               </button>
